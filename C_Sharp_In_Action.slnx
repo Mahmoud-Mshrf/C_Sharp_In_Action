@@ -1,1 +1,13 @@
-<Solution />
+<Solution>
+  <Folder Name="/Basics/">
+    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming By Me.pdf" />
+    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming.docx" />
+    <Project Path="Basics/Arrays.csproj" Id="a503faaa-59b7-438d-96bd-2aff12d14998" />
+    <Project Path="Casting/Casting.csproj" Id="3d021898-554a-4546-9a85-c4420aacd6e8" />
+    <Project Path="Constructors/Constructors.csproj" Id="9f98fa43-2774-44c0-a074-66d0e7580ed7" />
+    <Project Path="Expressions/Expressions.csproj" Id="485ef24f-afb8-43d9-b4ab-8569c058a85b" />
+    <Project Path="Indexer/Indexer.csproj" Id="c95483cc-9aed-4b35-b9ab-0128d4fb1702" />
+    <Project Path="Properties/Properties.csproj" Id="c10b1690-13f2-457c-989b-94b3e2e72132" />
+    <Project Path="Test-in-basics/Test-in-basics.csproj" Id="5e78fd6e-d9f9-44f5-bcf9-48fa6009a296" />
+  </Folder>
+</Solution>

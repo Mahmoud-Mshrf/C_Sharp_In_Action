@@ -10,4 +10,9 @@
     <Project Path="Properties/Properties.csproj" Id="c10b1690-13f2-457c-989b-94b3e2e72132" />
     <Project Path="Test-in-basics/Test-in-basics.csproj" Id="5e78fd6e-d9f9-44f5-bcf9-48fa6009a296" />
   </Folder>
+  <Folder Name="/Intermediate/">
+    <Project Path="Delegates/Delegates.csproj" Id="7207cd4f-55eb-4b82-b09c-57b5bbb39748" />
+    <Project Path="GenericDelegate/GenericDelegate.csproj" Id="2cdc56e9-3cb0-4aaa-be23-f7999b279669" />
+    <Project Path="LambdaExpression/LambdaExpression.csproj" Id="d3b3a76c-e2b0-4121-b4d2-0b39c903ae80" />
+  </Folder>
 </Solution>

@@ -14,5 +14,6 @@
     <Project Path="Delegates/Delegates.csproj" Id="7207cd4f-55eb-4b82-b09c-57b5bbb39748" />
     <Project Path="GenericDelegate/GenericDelegate.csproj" Id="2cdc56e9-3cb0-4aaa-be23-f7999b279669" />
     <Project Path="LambdaExpression/LambdaExpression.csproj" Id="d3b3a76c-e2b0-4121-b4d2-0b39c903ae80" />
+    <Project Path="MulticastDelegate/MulticastDelegate.csproj" Id="13f933b0-8ecb-488c-89f6-ec1a79397167" />
   </Folder>
 </Solution>

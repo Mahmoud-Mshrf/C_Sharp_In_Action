@@ -15,9 +15,11 @@
     <Project Path="Delegates/Delegates.csproj" Id="7207cd4f-55eb-4b82-b09c-57b5bbb39748" />
     <Project Path="Event/Event.csproj" Id="d393736b-d610-4631-9bdf-132d2fd24d9c" />
     <Project Path="EventVsDelegate/EventVsDelegate.csproj" Id="e58a1aac-7b21-4b2d-aaf9-dc0ee65371ec" />
+    <Project Path="FinalTest/FinalTest.csproj" Id="c3ad9171-7457-49b3-b540-c3251a0d997f" />
     <Project Path="GenericDelegate/GenericDelegate.csproj" Id="2cdc56e9-3cb0-4aaa-be23-f7999b279669" />
     <Project Path="LambdaExpression/LambdaExpression.csproj" Id="d3b3a76c-e2b0-4121-b4d2-0b39c903ae80" />
     <Project Path="MulticastDelegate/MulticastDelegate.csproj" Id="13f933b0-8ecb-488c-89f6-ec1a79397167" />
+    <Project Path="SmallNote/SmallNote.csproj" Id="4142ef0f-4f48-4c8b-90e8-1dcbb76dea5a" />
   </Folder>
   <Folder Name="/Intermediate/DelegateAndEvent/EventHandlers/">
     <Project Path="EventHandler2/EventHandler2.csproj" Id="3a4a74a0-dddb-4cc7-8a91-b407f5da95f5" />

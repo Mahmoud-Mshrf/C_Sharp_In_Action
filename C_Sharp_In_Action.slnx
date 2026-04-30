@@ -23,13 +23,21 @@
     <Project Path="EventHandler2/EventHandler2.csproj" Id="3a4a74a0-dddb-4cc7-8a91-b407f5da95f5" />
     <Project Path="EventHandlerExplaination/EventHandlerExplaination.csproj" Id="4c46b12a-0e82-444e-aaa9-f42baff3a081" />
   </Folder>
-  <Folder Name="/Intermediate/Object Oriented Programming/">
-    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming By Me.pdf" />
-    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming.docx" />
+  <Folder Name="/Intermediate/Enum_And_Struct/">
     <Project Path="../Mahmoud-Mshrf/CSharp_Reference/StructExplanation/StructExplanation.csproj" />
     <Project Path="Enums/Enums.csproj" Id="2666d71c-3080-4bbc-a154-d5cd1690381b" />
     <Project Path="FlagEnumExample/FlagEnumExample.csproj" Id="7273fbf2-fcd0-4218-9d07-b15694f89e79" />
     <Project Path="FlagEnums/FlagEnums.csproj" Id="ef8f0766-5853-47fc-ae16-3facd2dd3471" />
+  </Folder>
+  <Folder Name="/Intermediate/Object Oriented Programming/">
+    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming By Me.pdf" />
+    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming.docx" />
     <Project Path="OperatorOverloading/OperatorOverloading.csproj" Id="8bb43ee0-9c3e-4a4a-a162-5c928252a6cf" />
+  </Folder>
+  <Folder Name="/Intermediate/Object Oriented Programming/OOP Principles/">
+    <Project Path="03_Polymorphism/03_Polymorphism.csproj" Id="48261d64-f642-4dee-a81d-4cb1fa1cd1d6" />
+    <Project Path="04_Abstraction/04_Abstraction.csproj" Id="8b3293b4-6028-4aa0-b9ca-b4adef3a4031" />
+    <Project Path="Encapsulation/01_Encapsulation.csproj" Id="6252dd67-5976-41d3-80b6-8bcaf7970e62" />
+    <Project Path="Inheritance/02_Inheritance.csproj" Id="d15f6b10-0f6a-409d-8bbd-1868001c4bf0" />
   </Folder>
 </Solution>

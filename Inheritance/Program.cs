@@ -3,6 +3,10 @@
 namespace Inheritance
 {
     // Inheritance—A class can inherit from another class and take advantage of the attributes and methods defined by the superclass.
+    //**************************************
+    // Inheritance allows a class to reuse and extend the behavior of another class.
+    // In C#, you use the : symbol to inherit from a base class. The derived class gets all accessible members of the base class and can add new functionality or modify existing behavior.
+    // This promotes code reuse and reduces duplication. You can also use protected members to allow derived classes to access certain internal details of the base class.
     internal class Program
     {
         static void Main(string[] args)

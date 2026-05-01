@@ -3,7 +3,12 @@
 // hiding implementation details from the client it just know how to use it but doesn't know how it implemented 
 // abstraction applied using : abstarct class , interface , and encapsulation bassicaly support abstraction by using access modifiers 
 // abstraction means to reduce the details that classes or system parts knows about each other 
-// 
+// ************************************************************
+// Abstraction means hiding complex implementation details and showing only essential behavior.
+// In C#, you achieve this using interfaces and abstract classes.
+// An interface defines what a class should do, not how, while an abstract class can provide partial implementation.
+// This allows you to design systems based on contracts, making your code flexible and easier to extend.
+// The user of the class interacts with simple methods without needing to understand the internal logic.
 namespace _04_Abstraction
 {
     internal class Program

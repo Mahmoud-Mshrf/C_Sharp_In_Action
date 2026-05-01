@@ -8,7 +8,12 @@
     <Project Path="Properties/Properties.csproj" Id="c10b1690-13f2-457c-989b-94b3e2e72132" />
     <Project Path="Test-in-basics/Test-in-basics.csproj" Id="5e78fd6e-d9f9-44f5-bcf9-48fa6009a296" />
   </Folder>
-  <Folder Name="/Intermediate/" />
+  <Folder Name="/Intermediate/">
+    <Project Path="Generics/Generics.csproj" Id="54661ca8-77a7-4b2c-9ee9-866642a0bf7a" />
+    <Project Path="Generics01/Generics01.csproj" Id="1d2e732e-d24f-462a-a2c5-e424a51d3405" />
+    <Project Path="Generics02/Generics02.csproj" Id="143adb0b-5666-45a6-bbdf-204835630250" />
+    <Project Path="GenericsTest/GenericsTest.csproj" Id="e1954ab9-902a-49a7-9cc1-4e51f8de6a94" />
+  </Folder>
   <Folder Name="/Intermediate/DelegateAndEvent/">
     <Project Path="Delegates/Delegates.csproj" Id="7207cd4f-55eb-4b82-b09c-57b5bbb39748" />
     <Project Path="Event/Event.csproj" Id="d393736b-d610-4631-9bdf-132d2fd24d9c" />
@@ -38,6 +43,7 @@
     <Project Path="03_Polymorphism/03_Polymorphism.csproj" Id="48261d64-f642-4dee-a81d-4cb1fa1cd1d6" />
     <Project Path="04_Abstraction/04_Abstraction.csproj" Id="8b3293b4-6028-4aa0-b9ca-b4adef3a4031" />
     <Project Path="Encapsulation/01_Encapsulation.csproj" Id="6252dd67-5976-41d3-80b6-8bcaf7970e62" />
+    <Project Path="FinalExample/FinalExample.csproj" Id="3033335a-3e79-41e1-9215-b6cc66c52ff2" />
     <Project Path="Inheritance/02_Inheritance.csproj" Id="d15f6b10-0f6a-409d-8bbd-1868001c4bf0" />
   </Folder>
 </Solution>

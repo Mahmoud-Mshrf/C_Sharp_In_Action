@@ -7,6 +7,13 @@ namespace Encapsulation
     // Encapsulation : refers to the concept of protecting all the internal mechanics of a program in order to shield the information from unwanted access or being invalid state (has wrong logically value)
     // Getters and setters support concept of data hiding from an authorized access(encapsulation) : Because other objects should not directly manipulate data within another object 
     // the getters and setters provide controlled access to an object’s data.Getters and setters are sometimes called accessor methods and mutator methods, respectively.
+    /**************************************/
+    // Encapsulation means hiding internal data and exposing only what’s necessary.
+    // In C#, this is achieved using access modifiers (private, public, protected) and properties.
+    // Instead of allowing direct access to fields, you wrap them in properties to control reading/writing and enforce validation.
+    // This protects your object’s state and prevents invalid data.
+    // For example, making a field private and exposing it via a public property ensures that any assignment can be validated before being accepted.
+
     internal class Program
     {
         static void Main(string[] args)

@@ -1,6 +1,11 @@
 ﻿namespace _03_Polymorphism
 {
     // Polymorphism is a Greek word that literally means many shapes. Although polymorphism is tightly coupled to inheritance, it is often cited separately as one of the most powerful advantages to object-oriented technologies.
+    //**************************************************//
+    //Polymorphism means one interface, multiple implementations.
+    //In C#, it appears in two main forms: method overriding (runtime polymorphism) and method overloading (compile-time polymorphism).
+    //With overriding, a derived class provides a specific implementation of a virtual method from the base class using override.
+    //This allows you to treat different objects uniformly while each behaves differently depending on its actual type.
     internal class Program
     {
         static void Main(string[] args)

@@ -10,6 +10,7 @@
   </Folder>
   <Folder Name="/Intermediate/">
     <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Exceptions/Exceptions.csproj" />
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ExtensionMethods/ExtensionMethods.csproj" />
   </Folder>
   <Folder Name="/Intermediate/DelegateAndEvent/">
     <Project Path="Delegates/Delegates.csproj" Id="7207cd4f-55eb-4b82-b09c-57b5bbb39748" />
@@ -45,6 +46,7 @@
   <Folder Name="/Intermediate/Object Oriented Programming/">
     <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming By Me.pdf" />
     <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming.docx" />
+    <File Path="Basics/Access_Modifiers.png" />
     <Project Path="OperatorOverloading/OperatorOverloading.csproj" Id="8bb43ee0-9c3e-4a4a-a162-5c928252a6cf" />
   </Folder>
   <Folder Name="/Intermediate/Object Oriented Programming/OOP Principles/">

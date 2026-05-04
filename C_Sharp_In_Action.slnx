@@ -83,4 +83,5 @@
     <Project Path="../Mahmoud-Mshrf/CSharp_Reference/LoadFrom/CALoadFrom.csproj" />
     <Project Path="../Mahmoud-Mshrf/CSharp_Reference/LoadFromLib/LoadFromLib.csproj" />
   </Folder>
+  <Folder Name="/Threading/" />
 </Solution>

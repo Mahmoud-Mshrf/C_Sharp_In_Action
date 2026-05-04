@@ -18,6 +18,16 @@
   </Folder>
   <Folder Name="/Intermediate/Attributes/">
     <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Attributes/01_Attributes.csproj" />
+    <Project Path="02_Attributes/02_Attributes.csproj" Id="cb826f32-4e33-4f13-a046-d925c89acf99" />
+  </Folder>
+  <Folder Name="/Intermediate/Collections/">
+    <Project Path="Dictionary/Dictionary.csproj" Id="ebe4bf1d-74c0-4dae-b5c9-baa6c7f91cfe" />
+    <Project Path="HashSet/HashSet.csproj" Id="05de7560-40a2-47b9-9f19-6ccbfc6f3d40" />
+    <Project Path="LinkedList/LinkedList.csproj" Id="ab1465bf-2b89-4393-9e1e-19ab78758122" />
+    <Project Path="List/List.csproj" Id="b20a2385-958c-451b-b2cf-adbd453575ed" />
+    <Project Path="Queues/Queues.csproj" Id="5c7689b7-e446-42ce-9a91-17530c401f31" />
+    <Project Path="SortedSet/SortedSet.csproj" Id="8c93a03b-2253-4315-8d78-5994310a4ca4" />
+    <Project Path="stacks/stacks.csproj" Id="2b72ffb7-840f-4ab0-9d5e-1dd0e49ca174" />
   </Folder>
   <Folder Name="/Intermediate/DelegateAndEvent/">
     <Project Path="Delegates/Delegates.csproj" Id="7207cd4f-55eb-4b82-b09c-57b5bbb39748" />

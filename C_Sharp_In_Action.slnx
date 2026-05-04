@@ -54,6 +54,10 @@
     <Project Path="FlagEnumExample/FlagEnumExample.csproj" Id="7273fbf2-fcd0-4218-9d07-b15694f89e79" />
     <Project Path="FlagEnums/FlagEnums.csproj" Id="ef8f0766-5853-47fc-ae16-3facd2dd3471" />
   </Folder>
+  <Folder Name="/Intermediate/Foreach_Yield/">
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ForeachUnderTheHood/ForeachUnderTheHood.csproj" />
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Yield_Keyword/Yield_Keyword.csproj" />
+  </Folder>
   <Folder Name="/Intermediate/Generics_/">
     <Project Path="Generics/Generics.csproj" Id="54661ca8-77a7-4b2c-9ee9-866642a0bf7a" />
     <Project Path="Generics01/Generics01.csproj" Id="1d2e732e-d24f-462a-a2c5-e424a51d3405" />

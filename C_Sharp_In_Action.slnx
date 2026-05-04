@@ -96,4 +96,12 @@
     <Project Path="../../../Desktop/New folder (2)/Sequential/Sequential.csproj" />
     <Project Path="../../../Desktop/New folder (2)/Threadpool/Threadpool.csproj" />
   </Folder>
+  <Folder Name="/TopLevelStatement/">
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ImplicitUsings/ImplicitUsings.csproj" />
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/MainMethodForms/MainMethodForms.csproj" />
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Namespaces/Namespaces.csproj" />
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Rule1/Rule1.csproj" />
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Rule2/Rule2.csproj" />
+    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/TopLevelStatementProject/TopLevelStatementProject.csproj" />
+  </Folder>
 </Solution>

@@ -83,5 +83,13 @@
     <Project Path="../Mahmoud-Mshrf/CSharp_Reference/LoadFrom/CALoadFrom.csproj" />
     <Project Path="../Mahmoud-Mshrf/CSharp_Reference/LoadFromLib/LoadFromLib.csproj" />
   </Folder>
-  <Folder Name="/Threading/" />
+  <Folder Name="/Threading/">
+    <Project Path="../../../Desktop/New folder (2)/Deadlock/Deadlock.csproj" />
+    <Project Path="../../../Desktop/New folder (2)/MultiThreading/MultiThreading.csproj" />
+    <Project Path="../../../Desktop/New folder (2)/PracticeOnThreading/PracticeOnThreading.csproj" />
+    <Project Path="../../../Desktop/New folder (2)/ProcessAndThread/ProcessAndThread.csproj" />
+    <Project Path="../../../Desktop/New folder (2)/RaceCondition/RaceCondition.csproj" />
+    <Project Path="../../../Desktop/New folder (2)/Sequential/Sequential.csproj" />
+    <Project Path="../../../Desktop/New folder (2)/Threadpool/Threadpool.csproj" />
+  </Folder>
 </Solution>

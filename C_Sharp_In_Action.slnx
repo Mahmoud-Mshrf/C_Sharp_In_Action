@@ -25,6 +25,7 @@
     <Project Path="Expressions/Expressions.csproj" Id="485ef24f-afb8-43d9-b4ab-8569c058a85b" />
     <Project Path="Indexer/Indexer.csproj" Id="c95483cc-9aed-4b35-b9ab-0128d4fb1702" />
     <Project Path="Properties/Properties.csproj" Id="c10b1690-13f2-457c-989b-94b3e2e72132" />
+    <Project Path="StringBuilder_/StringBuilder_.csproj" Id="72247aaf-47d9-4ec0-8d29-0d689f34cf27" />
     <Project Path="Test-in-basics/Test-in-basics.csproj" Id="5e78fd6e-d9f9-44f5-bcf9-48fa6009a296" />
   </Folder>
   <Folder Name="/EqualityAndMutability/">

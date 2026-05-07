@@ -11,30 +11,30 @@
   <Folder Name="/EqualityAndMutability/">
     <File Path="mutability.txt" />
     <File Path="record.txt" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/HashCode/HashCode.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ImmutableRecordsUsingInit/ImmutableRecordsUsingInit.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/OverrideEquality/OverrideEquality.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/OverrideOperators/OverrideOperators.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/OverrideToString/OverrideToString.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/PositionalRecord/PositionalRecord.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/PropertyInitSetter/PropertyInitSetter.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Records/Records.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ReferenceBasedEquality/ReferenceBasedEquality.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/StructRecord/StructRecord.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ValueBasedEquality/ValueBasedEquality.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/WithExpression/WithExpression.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/HashCode/HashCode.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/ImmutableRecordsUsingInit/ImmutableRecordsUsingInit.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/OverrideEquality/OverrideEquality.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/OverrideOperators/OverrideOperators.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/OverrideToString/OverrideToString.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/PositionalRecord/PositionalRecord.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/PropertyInitSetter/PropertyInitSetter.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/Records/Records.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/ReferenceBasedEquality/ReferenceBasedEquality.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/StructRecord/StructRecord.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/ValueBasedEquality/ValueBasedEquality.csproj" />
+    <Project Path="AddedProjects/RecordsAndImmutability/WithExpression/WithExpression.csproj" />
   </Folder>
   <Folder Name="/Intermediate/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Exceptions/Exceptions.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ExtensionMethods/ExtensionMethods.csproj" />
+    <Project Path="AddedProjects/ExceptionPropagation/ExceptionPropagation.csproj" />
+    <Project Path="AddedProjects/ExtensionMethods/ExtensionMethods.csproj" />
   </Folder>
   <Folder Name="/Intermediate/Assemblies_/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Assemblies/Assemblies.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/DemoLib/DemoLib.csproj" />
+    <Project Path="AddedProjects/Assemblies/Assemblies/Assemblies.csproj" />
+    <Project Path="AddedProjects/Assemblies/DemoLib/DemoLib.csproj" />
   </Folder>
   <Folder Name="/Intermediate/Attributes/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Attributes/01_Attributes.csproj" />
     <Project Path="02_Attributes/02_Attributes.csproj" Id="cb826f32-4e33-4f13-a046-d925c89acf99" />
+    <Project Path="AddedProjects/01_Attributes/01_Attributes.csproj" />
   </Folder>
   <Folder Name="/Intermediate/Collections/">
     <Project Path="Dictionary/Dictionary.csproj" Id="ebe4bf1d-74c0-4dae-b5c9-baa6c7f91cfe" />
@@ -65,14 +65,14 @@
     <Project Path="Enumerator_step_by_step/Enumerator_step_by_step.csproj" Id="f13d85ad-3585-4e8f-8241-0a72179e855d" />
   </Folder>
   <Folder Name="/Intermediate/Enum_And_Struct/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/StructExplanation/StructExplanation.csproj" />
+    <Project Path="AddedProjects/StructExplanation/StructExplanation.csproj" />
     <Project Path="Enums/Enums.csproj" Id="2666d71c-3080-4bbc-a154-d5cd1690381b" />
     <Project Path="FlagEnumExample/FlagEnumExample.csproj" Id="7273fbf2-fcd0-4218-9d07-b15694f89e79" />
     <Project Path="FlagEnums/FlagEnums.csproj" Id="ef8f0766-5853-47fc-ae16-3facd2dd3471" />
   </Folder>
   <Folder Name="/Intermediate/Foreach_Yield/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ForeachUnderTheHood/ForeachUnderTheHood.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Yield_Keyword/Yield_Keyword.csproj" />
+    <Project Path="AddedProjects/Foreach_Yield/ForeachUnderTheHood/ForeachUnderTheHood.csproj" />
+    <Project Path="AddedProjects/Foreach_Yield/Yield_Keyword/Yield_Keyword.csproj" />
   </Folder>
   <Folder Name="/Intermediate/Generics_/">
     <Project Path="Generics/Generics.csproj" Id="54661ca8-77a7-4b2c-9ee9-866642a0bf7a" />
@@ -94,30 +94,31 @@
     <Project Path="Inheritance/02_Inheritance.csproj" Id="d15f6b10-0f6a-409d-8bbd-1868001c4bf0" />
   </Folder>
   <Folder Name="/Intermediate/Reflection/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/InstantiateAnObject/InstantiateAnObject.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/InvokeMember/InvokeMember.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/MembersInformation/MembersInformation.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ReflectionAndMetadata/ReflectionObtainTypeInfo.csproj" />
+    <Project Path="AddedProjects/ReflectionAndMetadata/InstantiateAnObject/InstantiateAnObject.csproj" />
+    <Project Path="AddedProjects/ReflectionAndMetadata/InvokeMember/InvokeMember.csproj" />
+    <Project Path="AddedProjects/ReflectionAndMetadata/MembersInformation/MembersInformation.csproj" />
+    <Project Path="AddedProjects/ReflectionAndMetadata/ReflectionAndMetadata/ReflectionObtainTypeInfo.csproj" />
   </Folder>
   <Folder Name="/Intermediate/Reflection/LoadFrom/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/LoadFrom/CALoadFrom.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/LoadFromLib/LoadFromLib.csproj" />
+    <Project Path="AddedProjects/ReflectionAndMetadata/Load-From/LoadFrom/CALoadFrom.csproj" />
+    <Project Path="AddedProjects/ReflectionAndMetadata/Load-From/LoadFromLib/LoadFromLib.csproj" />
   </Folder>
   <Folder Name="/Intermediate/TopLevelStatement/">
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/ImplicitUsings/ImplicitUsings.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/MainMethodForms/MainMethodForms.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Namespaces/Namespaces.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Rule1/Rule1.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/Rule2/Rule2.csproj" />
-    <Project Path="../Mahmoud-Mshrf/CSharp_Reference/TopLevelStatementProject/TopLevelStatementProject.csproj" />
+    <Project Path="AddedProjects/TopLevelStatement/ImplicitUsings/ImplicitUsings.csproj" />
+    <Project Path="AddedProjects/TopLevelStatement/MainMethodForms/MainMethodForms.csproj" />
+    <Project Path="AddedProjects/TopLevelStatement/Namespaces/Namespaces.csproj" />
+    <Project Path="AddedProjects/TopLevelStatement/Rule1/Rule1.csproj" />
+    <Project Path="AddedProjects/TopLevelStatement/Rule2/Rule2.csproj" />
+    <Project Path="AddedProjects/TopLevelStatement/TopLevelStatementProject/TopLevelStatementProject.csproj" />
   </Folder>
   <Folder Name="/Threading/">
-    <Project Path="../../../Desktop/New folder (2)/Deadlock/Deadlock.csproj" />
-    <Project Path="../../../Desktop/New folder (2)/MultiThreading/MultiThreading.csproj" />
-    <Project Path="../../../Desktop/New folder (2)/PracticeOnThreading/PracticeOnThreading.csproj" />
-    <Project Path="../../../Desktop/New folder (2)/ProcessAndThread/ProcessAndThread.csproj" />
-    <Project Path="../../../Desktop/New folder (2)/RaceCondition/RaceCondition.csproj" />
-    <Project Path="../../../Desktop/New folder (2)/Sequential/Sequential.csproj" />
-    <Project Path="../../../Desktop/New folder (2)/Threadpool/Threadpool.csproj" />
+    <Project Path="AddedProjects/Threading/Deadlock/Deadlock.csproj" />
+    <Project Path="AddedProjects/Threading/Deadlock2/Deadlock2.csproj" />
+    <Project Path="AddedProjects/Threading/MultiThreading/MultiThreading.csproj" />
+    <Project Path="AddedProjects/Threading/PracticeOnThreading/PracticeOnThreading.csproj" />
+    <Project Path="AddedProjects/Threading/RaceCondition/RaceCondition.csproj" />
+    <Project Path="AddedProjects/Threading/Sequential/Sequential.csproj" />
+    <Project Path="AddedProjects/Threading/Threading/Threading_PassionateCoders.csproj" />
+    <Project Path="AddedProjects/Threading/Threadpool/Threadpool.csproj" />
   </Folder>
 </Solution>

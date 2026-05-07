@@ -1,0 +1,81 @@
+Sure! Here's a full recap of everything we covered:
+
+---
+
+## Async & Await in C# — Full Recap
+
+### 1. What is `async/await`?
+A way to write asynchronous code that **looks synchronous**. The compiler does the heavy lifting behind the scenes.
+
+---
+
+### 2. The Two Key Concepts (Don't Confuse Them)
+| Concept | Meaning |
+|---|---|
+| **Blocking the thread** | Thread is frozen, can't do anything |
+| **Waiting in order** | Method pauses logically, but thread is free |
+
+`await` does the **second**, never the first.
+
+---
+
+### 3. What `await` Actually Does
+It **splits your method in two**:
+- Everything **before** `await` → runs normally
+- Everything **after** `await` → becomes a hidden callback (continuation) that runs only after the task completes
+- The thread is **released** at the `await` point and goes back to the thread pool
+
+---
+
+### 4. Manual Callback vs async/await
+```csharp
+// Manual — YOU decide what goes in the callback
+awaiter.OnCompleted(() => {
+    Console.WriteLine(awaiter.GetResult()); // only this waits
+});
+Console.WriteLine("Bla Bla"); // runs immediately, outside the callback
+
+// async/await — COMPILER puts everything after await into the callback
+Console.WriteLine(await ReadContentAsync(url));
+Console.WriteLine("Bla Bla"); // compiler moves this into the hidden callback → waits
+```
+- **Same mechanism** under the hood
+- **Different scope** — in async/await the entire rest of the method becomes the callback automatically
+
+---
+
+### 5. What the Compiler Generates from `await`
+```csharp
+// What you write:
+var content = await client.GetStringAsync(url);
+Console.WriteLine(content);
+
+// What the compiler roughly generates:
+var awaiter = client.GetStringAsync(url).GetAwaiter();
+
+if (!awaiter.IsCompleted)
+{
+    awaiter.OnCompleted(() => {
+        var content = awaiter.GetResult(); // task already done here — no blocking
+        Console.WriteLine(content);        // rest of your method runs here
+    });
+    return; // thread is FREE here
+}
+
+var content = awaiter.GetResult(); // already done synchronously — no blocking
+```
+
+---
+
+### 6. Why `.GetResult()` Doesn't Block Inside the Callback
+| When `.GetResult()` is called | Task state | Result |
+|---|---|---|
+| You call it manually on a running task | Still running | ❌ Blocks |
+| Compiler calls it inside `OnCompleted` | Already finished | ✅ No blocking |
+
+The key is **when** it's called, not who calls it.
+
+---
+
+### 7. The One-Line Summary
+> `async/await` is the compiler automatically wrapping everything after `await` into a continuation callback — so your code looks sequential, the thread stays free, and you never manage callbacks manually.

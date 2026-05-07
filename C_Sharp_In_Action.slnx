@@ -1,4 +1,23 @@
 <Solution>
+  <Folder Name="/AsyncProgramming/">
+    <Project Path="AddedProjects/AsyncProgramming/AsyncFunctionExamble/AsyncFunctionExamble.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/AsyncFunctions/AsyncFunctions.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/asynchronousExampleExplaination/asynchronousExampleExplaination.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/AsynchronousFunctionsDetailedExample/AsynchronousFunctionsDetailedExample.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/AsynchronousFunctionsDetailedExample2/AsynchronousFunctionsDetailedExample2.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/AsynchronousFunctionsExplanation/AsynchronousFunctionsExplanation.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/CancellationTokenExplanation/CancellationTokenExplanation.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/ConcurrencyAndParallelism/ConcurrencyAndParallelism.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/ExceptionPropagation/ExceptionPropagation.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/LongRunningTask/LongRunningTask.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/SyncVsAsync/SyncVsAsync.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskBased_Asynchronous_Pattern/TaskBased_Asynchronous_Pattern.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskCombinators/TaskCombinators.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskContinuation/TaskContinuation.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskDelay/TaskDelay.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskReturnsValue/TaskReturnsValue.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/ThreadVsTask/ThreadVsTask.csproj" />
+  </Folder>
   <Folder Name="/Basics/">
     <Project Path="Basics/Arrays.csproj" Id="a503faaa-59b7-438d-96bd-2aff12d14998" />
     <Project Path="Casting/Casting.csproj" Id="3d021898-554a-4546-9a85-c4420aacd6e8" />
@@ -24,10 +43,7 @@
     <Project Path="AddedProjects/RecordsAndImmutability/ValueBasedEquality/ValueBasedEquality.csproj" />
     <Project Path="AddedProjects/RecordsAndImmutability/WithExpression/WithExpression.csproj" />
   </Folder>
-  <Folder Name="/Intermediate/">
-    <Project Path="AddedProjects/ExceptionPropagation/ExceptionPropagation.csproj" />
-    <Project Path="AddedProjects/ExtensionMethods/ExtensionMethods.csproj" />
-  </Folder>
+  <Folder Name="/Intermediate/" />
   <Folder Name="/Intermediate/Assemblies_/">
     <Project Path="AddedProjects/Assemblies/Assemblies/Assemblies.csproj" />
     <Project Path="AddedProjects/Assemblies/DemoLib/DemoLib.csproj" />
@@ -69,6 +85,12 @@
     <Project Path="Enums/Enums.csproj" Id="2666d71c-3080-4bbc-a154-d5cd1690381b" />
     <Project Path="FlagEnumExample/FlagEnumExample.csproj" Id="7273fbf2-fcd0-4218-9d07-b15694f89e79" />
     <Project Path="FlagEnums/FlagEnums.csproj" Id="ef8f0766-5853-47fc-ae16-3facd2dd3471" />
+  </Folder>
+  <Folder Name="/Intermediate/Exceptions/">
+    <Project Path="AddedProjects/Exceptions/Exceptions.csproj" />
+  </Folder>
+  <Folder Name="/Intermediate/Extension_Methods/">
+    <Project Path="AddedProjects/ExtensionMethods/ExtensionMethods.csproj" />
   </Folder>
   <Folder Name="/Intermediate/Foreach_Yield/">
     <Project Path="AddedProjects/Foreach_Yield/ForeachUnderTheHood/ForeachUnderTheHood.csproj" />

@@ -1,0 +1,24 @@
+Assembly is the basic unit of deployment in .net core
+Assembly is the compiled output of the code ( .exe or .dll)
+Assembly
+ ├── Types (classes, structs, etc.)
+ ├── Metadata
+ ├── IL code (Intermediate Language)
+
+to run any app it goes into 3 steps :
+compilation time : Source code ( like C# or VB or javascript ....) each language has its compiler
+
+translation time(exe and dll) : the source code translated to IL(intermediate language) and Metadata(information about information) 
+
+run time : the il code translated by JIT(just in time) compiler to machine code
+
+**********************
+
+the Assembly is the dll(projectname.dll) 
+
+
+*******************************************
+typeof(T) → returns the type metadata at compile time without needing an instance.
+object.GetType() → returns the actual runtime type of an object and reflects polymorphism.
+Assembly → the compiled unit (.dll/.exe) that contains types and metadata.
+Type → represents metadata of a type and allows reflection to inspect and interact with it at runtime.

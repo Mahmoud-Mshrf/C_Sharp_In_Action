@@ -1,0 +1,97 @@
+Imutability : the object stat cannot change ,
+	Not the variable reference cannot cnange .
+
+Mutable object : can change its state after creation .
+Immutable object : cannot change its state after creation ( once created same data forever)
+
+examples :
+
+string is immutable 
+	
+	string a = "Mahmoud";
+	a = "Ahmed";
+people think : string changed then it's mutable,
+actually it's wrong : new string object is created and the variable 'a' now references new object
+-----
+
+	string s = "Hello";
+	s.ToUpper();
+original string unchanged 
+internally : 
+"Hello" object still existing but unused 
+"HELLO" object is a new object and variable s refers to it 
+
+-------------------------------------------------------
+Mutable object :
+class Person
+{
+    public string Name { get; set; }
+}
+usage :
+
+var p = new Person();
+p.Name = "Mahmoud";
+
+p.Name = "Mohamed"; // changed ✅
+
+we talk about the object of type person it is mutable because its name changed
+
+---------
+Immutable object :
+class Person
+{
+    public string Name { get; }
+
+    public Person(string name)
+    {
+        Name = name;
+    }
+}
+usage:
+
+var p = new Person("Mahmoud");
+
+// p.Name = "Mohamed"; ❌ impossible
+state can't change so it's immutable
+
+
+---------------------------------------------------------
+Immutable types in C#:
+string , DateTime , Record(usually)
+
+Mutable types in C#:
+List<T> , Arrays , Most normal classes (especially with setters)
+
+---------------------------------------------------------
+Mutability is independent from value/reference type 
+string is reference type and it's immutable
+struct is a value type and it is mutable 
+--------------
+
+how to create immutable class properly :
+- read only properties 
+	public string Name {get;}
+- initialize in constructor only 
+- No setters
+- No methods modifying state
+
+Better Modern Way Is Record 
+	Automatically :
+	- immutable-style
+	- value equality
+	- safer design
+
+
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+summary :
+Mutable objects allow changing their internal state after creation,
+while immutable objects preserve their state forever once created.
+Immutability is independent from value/reference types and is achieved by preventing state modification through read-only members and constructor initialization only.
+Immutable objects improve thread safety, predictability, debugging, and safe sharing, while mutable objects are more flexible and can be more memory-efficient for frequently changing data.
+In immutable design, changes are represented by creating new objects instead of modifying existing ones.

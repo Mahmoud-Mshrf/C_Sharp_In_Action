@@ -104,19 +104,6 @@
     <Project Path="Generics02/Generics02.csproj" Id="143adb0b-5666-45a6-bbdf-204835630250" />
     <Project Path="GenericsTest/GenericsTest.csproj" Id="e1954ab9-902a-49a7-9cc1-4e51f8de6a94" />
   </Folder>
-  <Folder Name="/Intermediate/Object Oriented Programming/">
-    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming By Me.pdf" />
-    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming.docx" />
-    <File Path="Basics/Access_Modifiers.png" />
-    <Project Path="OperatorOverloading/OperatorOverloading.csproj" Id="8bb43ee0-9c3e-4a4a-a162-5c928252a6cf" />
-  </Folder>
-  <Folder Name="/Intermediate/Object Oriented Programming/OOP Principles/">
-    <Project Path="03_Polymorphism/03_Polymorphism.csproj" Id="48261d64-f642-4dee-a81d-4cb1fa1cd1d6" />
-    <Project Path="04_Abstraction/04_Abstraction.csproj" Id="8b3293b4-6028-4aa0-b9ca-b4adef3a4031" />
-    <Project Path="Encapsulation/01_Encapsulation.csproj" Id="6252dd67-5976-41d3-80b6-8bcaf7970e62" />
-    <Project Path="FinalExample/FinalExample.csproj" Id="3033335a-3e79-41e1-9215-b6cc66c52ff2" />
-    <Project Path="Inheritance/02_Inheritance.csproj" Id="d15f6b10-0f6a-409d-8bbd-1868001c4bf0" />
-  </Folder>
   <Folder Name="/Intermediate/Reflection/">
     <Project Path="AddedProjects/ReflectionAndMetadata/InstantiateAnObject/InstantiateAnObject.csproj" />
     <Project Path="AddedProjects/ReflectionAndMetadata/InvokeMember/InvokeMember.csproj" />
@@ -134,6 +121,19 @@
     <Project Path="AddedProjects/TopLevelStatement/Rule1/Rule1.csproj" />
     <Project Path="AddedProjects/TopLevelStatement/Rule2/Rule2.csproj" />
     <Project Path="AddedProjects/TopLevelStatement/TopLevelStatementProject/TopLevelStatementProject.csproj" />
+  </Folder>
+  <Folder Name="/Object Oriented Programming/">
+    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming By Me.pdf" />
+    <File Path="../../../Desktop/[01] Mastering C#/Code From The Playlists/Code From The Playlists/Object Oriented Programming/Object Oriented Programming.docx" />
+    <File Path="Basics/Access_Modifiers.png" />
+    <Project Path="OperatorOverloading/OperatorOverloading.csproj" Id="8bb43ee0-9c3e-4a4a-a162-5c928252a6cf" />
+  </Folder>
+  <Folder Name="/Object Oriented Programming/OOP Principles/">
+    <Project Path="03_Polymorphism/03_Polymorphism.csproj" Id="48261d64-f642-4dee-a81d-4cb1fa1cd1d6" />
+    <Project Path="04_Abstraction/04_Abstraction.csproj" Id="8b3293b4-6028-4aa0-b9ca-b4adef3a4031" />
+    <Project Path="Encapsulation/01_Encapsulation.csproj" Id="6252dd67-5976-41d3-80b6-8bcaf7970e62" />
+    <Project Path="FinalExample/FinalExample.csproj" Id="3033335a-3e79-41e1-9215-b6cc66c52ff2" />
+    <Project Path="Inheritance/02_Inheritance.csproj" Id="d15f6b10-0f6a-409d-8bbd-1868001c4bf0" />
   </Folder>
   <Folder Name="/Threading/">
     <Project Path="AddedProjects/Threading/Deadlock/Deadlock.csproj" />

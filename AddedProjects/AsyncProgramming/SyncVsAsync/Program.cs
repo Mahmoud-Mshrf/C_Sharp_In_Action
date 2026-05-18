@@ -2,7 +2,6 @@
 {
     internal class Program
     {
-        // synchronous operation is an operation that blocks the thread until it is completed and doesn't return control to the caller until it is finished, while asynchronous operation is an operation that doesn't block the thread and returns control to the caller immediately, allowing the caller to continue executing other code while waiting for the operation to complete.
         static void Main(string[] args)
         {
             ShowThreadInfo(Thread.CurrentThread, 7);
@@ -60,4 +59,6 @@
        Performance	     Can cause slowdowns if tasks are long.	         Better performance for I/O-bound or long-running tasks.
        Thread Usage	     Uses one thread at a time.	                     Can use multiple threads.
      */
+
+     // synchronous operation is an operation that blocks the thread until it is completed and doesn't return control to the caller until it is finished, while asynchronous operation is an operation that doesn't block the thread and returns control to the caller immediately, allowing the caller to continue executing other code while waiting for the operation to complete.
 }

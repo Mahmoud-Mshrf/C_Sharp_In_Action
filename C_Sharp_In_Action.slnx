@@ -1,22 +1,23 @@
 <Solution>
   <Folder Name="/AsyncProgramming/">
     <Project Path="AddedProjects/AsyncProgramming/AsyncFunctionExamble/AsyncFunctionExamble.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/AsyncFunctions/AsyncFunctions.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/AsyncFunctions/_08AsyncFunctions.csproj" />
     <Project Path="AddedProjects/AsyncProgramming/asynchronousExampleExplaination/asynchronousExampleExplaination.csproj" />
     <Project Path="AddedProjects/AsyncProgramming/AsynchronousFunctionsDetailedExample/AsynchronousFunctionsDetailedExample.csproj" />
     <Project Path="AddedProjects/AsyncProgramming/AsynchronousFunctionsDetailedExample2/AsynchronousFunctionsDetailedExample2.csproj" />
     <Project Path="AddedProjects/AsyncProgramming/AsynchronousFunctionsExplanation/AsynchronousFunctionsExplanation.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/CancellationTokenExplanation/CancellationTokenExplanation.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/ConcurrencyAndParallelism/ConcurrencyAndParallelism.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/ExceptionPropagation/ExceptionPropagation.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/LongRunningTask/LongRunningTask.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/SyncVsAsync/SyncVsAsync.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/CancellationTokenExplanation/_09CancellationTokenExplanation.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/ConcurrencyAndParallelism/_12ConcurrencyAndParallelism.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/ExceptionPropagation/_04ExceptionPropagation.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/LongRunningTask/_03LongRunningTask.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/SyncVsAsync/_07SyncVsAsync.csproj" />
     <Project Path="AddedProjects/AsyncProgramming/TaskBased_Asynchronous_Pattern/TaskBased_Asynchronous_Pattern.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/TaskCombinators/TaskCombinators.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/TaskContinuation/TaskContinuation.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/TaskDelay/TaskDelay.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/TaskReturnsValue/TaskReturnsValue.csproj" />
-    <Project Path="AddedProjects/AsyncProgramming/ThreadVsTask/ThreadVsTask.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskCombinators/_11TaskCombinators.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskContinuation/_05TaskContinuation.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskDelay/_06TaskDelay.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/TaskReturnsValue/_02TaskReturnsValue.csproj" />
+    <Project Path="AddedProjects/AsyncProgramming/ThreadVsTask/_01ThreadVsTask.csproj" />
+    <Project Path="ReportProgres/_10ReportProgres.csproj" Id="71acceaf-ae90-48e1-9059-266e686b28a1" />
   </Folder>
   <Folder Name="/Basics/">
     <Project Path="Basics/Arrays.csproj" Id="a503faaa-59b7-438d-96bd-2aff12d14998" />
